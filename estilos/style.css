@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login{
+    width: 75vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 1px 10px 5px  #c1c1c1;
+}
+.foto{
+    border-radius: 10px 10px 0px 0px ;
+    padding: 10px;
+    height: 150px;
+    background-color: black;
+    background-image: url(../imagens/background.jpg);
+}
+.formulario{
+    padding: 10px;
+}
+form input{
+    width: 100%;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #c1c1c1;
+}
+#iusuario, #isenha{
+   padding: 2px;
+}
+#cadastrar{
+    background-color: rgb(58, 58, 214);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+
+}
+#cadastrar:hover{
+    background-color: white;
+    color: black;
+}
+
+#esqsenha{
+    padding: 10px;
+    cursor: pointer;
+}
+#esqsenha:hover{
+    background-color: rgb(58, 58, 214);
+    color: white;
+}

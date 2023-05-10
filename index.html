@@ -5,16 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela login</title>
+    <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <main>
         <section class="login">
             <div class="foto">
-                foto
             </div>
             <div class="formulario">
-                <h1>Tela de login</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat corporis id dicta corrupti non, aliquid numquam. Dignissimos sint omnis fuga accusantium nobis. Voluptates fuga inventore nam consectetur atque obcaecati eligendi.</p>
+                <h1 style="text-align: center;">Login</h1>
+                <p style="text-align: justify;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat corporis id dicta corrupti non, id dicta corrupti non</p>
+                <form action="">
+                    <input type="text" name="usuario" id="iusuario" placeholder="Digite o nome do usuario" required>
+
+                    <input type="password" name="senha" id="isenha" placeholder="Digite a tua senha" minlength="8" required>
+
+                    <input type="submit" value="Cadastrar" id="cadastrar">
+
+                    <input type="submit" value="Esqueci a palavra passe" id="esqsenha">
+                </form>
             </div>
         </section>
     </main>
